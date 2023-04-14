@@ -29,9 +29,3 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
-
-variable "public_ip" {
-  description = "Need a Public IP?"
-  type        = bool
-  default     = true
-}
