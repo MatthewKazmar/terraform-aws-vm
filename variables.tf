@@ -3,7 +3,7 @@ variable "key_pair_name" {
   type        = string
 }
 
-variable "instance_name" {
+variable "name" {
   description = "Name of the instance."
   type        = string
 }
