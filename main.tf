@@ -16,8 +16,8 @@ resource "aws_instance" "this" {
   subnet_id              = var.subnet_id
 
   tags = merge({
-    Name            = var.instance_name
-  },
+    Name = var.instance_name
+    },
     var.tags
   )
 
@@ -33,8 +33,8 @@ resource "aws_eip" "this" {
   vpc      = true
 
   tags = merge({
-    Name            = var.instance_name
-  },
+    Name = var.instance_name
+    },
     var.tags
   )
 }
