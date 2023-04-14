@@ -1,9 +1,9 @@
-output "aws_instance" {
+output "instance" {
   description = "The AWS instance resource."
   value       = aws_instance.this
 }
 
-output "aws_eip" {
+output "eip" {
   description = "The AWS EIP resource."
   value       = aws_eip.this
 }
